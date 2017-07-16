@@ -3,9 +3,7 @@
     package="com.chestnut.Web">
 
     <application
-        android:allowBackup="true"
-        android:label="@string/app_name"
-        android:supportsRtl="true">
+        android:label="@string/app_name">
         <activity android:name=".WebActivity"
             android:theme="@style/WebModuleTheme"
             android:configChanges="orientation|keyboardHidden|screenSize" />

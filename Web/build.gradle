@@ -7,8 +7,11 @@ android {
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 25
-        versionCode 2
+        versionCode 3
         versionName "1.0"
+        /**
+         *  3.  修改一些可能冲突的地方
+         */
     }
     buildTypes {
         release {
