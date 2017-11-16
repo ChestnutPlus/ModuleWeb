@@ -5,8 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="test.com.chestnut.Web.MainActivity">
-
-
+    <EditText
+        android:id="@+id/edit_url"
+        android:hint="输入网址"
+        android:text="http://demo.mqphp.com/#/slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
