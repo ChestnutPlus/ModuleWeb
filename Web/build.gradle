@@ -7,8 +7,11 @@ android {
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 25
-        versionCode 1
+        versionCode 3
         versionName "1.0"
+        /**
+         *  3.  修改一些可能冲突的地方
+         */
     }
     buildTypes {
         release {
@@ -21,5 +24,5 @@ android {
 dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     // Core Base Library
-    compile 'com.github.ChestnutPlus:ModulesCommon:1.0.4'
+    compile 'com.github.ChestnutPlus:ModulesCommon:1.0.9'
 }
