@@ -20,10 +20,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String s = ((EditText)findViewById(R.id.edit_url)).getText().toString();
-//                intent.putExtra(WebActivity.URL,"https://www.baidu.com/");
                 if (!TextUtils.isEmpty(s)) {
                     Intent intent = new Intent(MainActivity.this,WebActivity.class);
-                    intent.putExtra(WebActivity.URL, "http://demo.mqphp.com/#/slider");
+                    intent.putExtra(WebActivity.URL,"https://www.baidu.com/");
                     startActivity(intent);
                 }
                 else {

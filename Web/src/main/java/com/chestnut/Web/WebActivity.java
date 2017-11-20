@@ -56,7 +56,7 @@ public class WebActivity extends AppCompatActivity {
         WebSettings settings = webView.getSettings();
         settings.setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         settings.setJavaScriptEnabled(true);
-        settings.setAppCacheEnabled(true);
+        settings.setAppCacheEnabled(false);
         settings.setDatabaseEnabled(true);
         settings.setDomStorageEnabled(true);
         webView.setWebChromeClient(myWebChromeClient.getWebChromeClient());
@@ -96,6 +96,7 @@ public class WebActivity extends AppCompatActivity {
                 return true;
             }
             else {
+                webView.destroy();
                 finish();
             }
         }

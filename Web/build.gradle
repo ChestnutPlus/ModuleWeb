@@ -7,10 +7,11 @@ android {
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 25
-        versionCode 3
+        versionCode 4
         versionName "1.0"
         /**
          *  3.  修改一些可能冲突的地方
+         *  4.  修改了缓存为不可用，修复，退出浏览器后，释放webView
          */
     }
     buildTypes {
@@ -24,5 +25,5 @@ android {
 dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     // Core Base Library
-    compile 'com.github.ChestnutPlus:ModulesCommon:1.0.9'
+    compile 'com.github.ChestnutPlus:ModulesCommon:1.1.5'
 }

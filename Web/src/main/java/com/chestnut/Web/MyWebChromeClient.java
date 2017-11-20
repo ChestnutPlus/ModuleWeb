@@ -14,6 +14,7 @@ import com.chestnut.Common.utils.LogUtils;
  *     desc  :  WebChromeClient封装+暴露必要的参数
  *     thanks To:
  *          1.  http://www.jianshu.com/p/6a7c91f1d804
+ *          2.  webSettingAPI: http://teachcourse.cn/android-webview-websettings
  *     dependent on:
  *     update log:
  * </pre>
