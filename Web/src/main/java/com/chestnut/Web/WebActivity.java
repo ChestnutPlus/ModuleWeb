@@ -54,7 +54,7 @@ public class WebActivity extends AppCompatActivity {
         }
         webView.setWebViewClient(webViewClient);
         WebSettings settings = webView.getSettings();
-        settings.setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
+        settings.setCacheMode(WebSettings.LOAD_NO_CACHE);
         settings.setJavaScriptEnabled(true);
         settings.setAppCacheEnabled(false);
         settings.setDatabaseEnabled(true);

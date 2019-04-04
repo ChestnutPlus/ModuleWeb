@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
                 String s = ((EditText)findViewById(R.id.edit_url)).getText().toString();
                 if (!TextUtils.isEmpty(s)) {
                     Intent intent = new Intent(MainActivity.this,WebActivity.class);
-                    intent.putExtra(WebActivity.URL,"https://www.baidu.com/");
+//                    intent.putExtra(WebActivity.URL,"https://www.baidu.com/");
+                    intent.putExtra(WebActivity.URL,"http://demo.mqphp.com/#/slider");
                     startActivity(intent);
                 }
                 else {

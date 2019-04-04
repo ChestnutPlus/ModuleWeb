@@ -11,6 +11,7 @@
     tools:context="com.chestnut.Web.WebActivity">
 
     <android.support.v7.widget.Toolbar
+        android:visibility="gone"
         android:id="@+id/toolbar"
         android:background="@color/web_module_main_color"
         android:layout_width="match_parent"
